@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '[\"[\" + (now | todate) + \"] TOOL: \" + .tool_name] | .[]' >> ~/anthropic-takehome-repo-intelligence/audit.log 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date -u +%Y-%m-%dT%H:%M:%SZ)] SESSION_COMPLETE\" >> ~/anthropic-takehome-repo-intelligence/audit.log 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
