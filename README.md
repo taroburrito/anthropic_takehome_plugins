@@ -5,6 +5,7 @@ A plugin for Claude Code for the purpose of demoing this feature for an enableme
 Prepared by David Lucas, May 2026
 
 **Summary:**
+
 This is a working demo of a Claude Code plugin that includes an MCP server, skills, and subagent prompts. After installing and running the command /intel-report Claude will spawn 4 parallel subagents that will search different aspects of a Github repo and generate an engineering intelligence report. By defualt, the plugin MCP is pointed at the publicly available repository anthropics/anthropic-sdk-python.
 
 **Getting up and running:**
@@ -38,6 +39,7 @@ Edit `.mcp.json` and update the `GITHUB_REPO` value:
 Works with any public GitHub repo — no token required.
 
 **What's happening under the hood**
+
 
 | File | What it does |
 |---|---|
