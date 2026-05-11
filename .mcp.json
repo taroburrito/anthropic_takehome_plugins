@@ -9,7 +9,6 @@
         "/Users/davidlucas/anthropic-takehome-repo-intelligence/mcp-server/server.py"
       ],
       "env": {
-        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
         "GITHUB_REPO": "anthropics/anthropic-sdk-python"
       }
     }
