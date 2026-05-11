@@ -1,4 +1,17 @@
 {
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__github-intelligence__get_repo_overview",
+      "mcp__github-intelligence__get_recent_commits",
+      "mcp__github-intelligence__get_open_issues",
+      "mcp__github-intelligence__get_open_pull_requests",
+      "Bash(jq *)",
+      "Bash(echo *)",
+      "Bash(date *)"
+    ],
+    "defaultMode": "acceptEdits"
+  },
   "hooks": {
     "PreToolUse": [
       {
