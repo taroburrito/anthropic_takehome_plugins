@@ -29,7 +29,7 @@ Once Claude Code is open, type:
 
 Watch four subagents fan out in parallel. The full report lands in about 30 seconds.
 
-Change the target repo
+**Change the target repo**
 
 Edit `.mcp.json` and update the `GITHUB_REPO` value:
 
