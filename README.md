@@ -22,6 +22,7 @@ claude
 That's it. The MCP server starts automatically.
 
 **Run the report:**
+
 Once Claude Code is open, type:
 
 /intel-report
