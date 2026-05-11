@@ -7,7 +7,7 @@ Prepared by David Lucas, May 2026
 **Summary:**
 This is a working demo of a Claude Code plugin that includes an MCP server, skills, and subagent prompts. After installing and running the command /intel-report Claude will spawn 4 parallel subagents that will search different aspects of a Github repo and generate an engineering intelligence report. By defualt, the plugin MCP is pointed at the publicly available repository anthropics/anthropic-sdk-python.
 
-**Get up and running:**
+**Getting up and running:**
 
 Prerequisites: [Claude Code](https://claude.ai/code) and [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
@@ -17,6 +17,7 @@ cd anthropic_takehome_plugins
 
 2. Launch Claude Code from the project directory
 claude 
+
 That's it. The MCP server starts automatically.
 
 **Run the report:**
